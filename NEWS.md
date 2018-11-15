@@ -1,4 +1,5 @@
-## EpiSignalDetection 0.1.1 (Release date: 2018-11-15)
+EpiSignalDetection 0.1.1 (Release date: 2018-11-15)
+==============================================================
 
 ### Bug fixes
 
