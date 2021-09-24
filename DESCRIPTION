@@ -1,8 +1,8 @@
 Package: EpiSignalDetection
 Type: Package
 Title: Signal Detection Analysis
-Version: 0.1.1
-Date: 2018-10-29
+Version: 0.1.2
+Date: 2021-09-24
 Authors@R: c( 
   person( given = "Lore", family = "Merdrignac", 
           role = c("aut", "ctr"), email = "l.merdrignac@epiconcept.fr", comment = "Author of the package and original code"),
@@ -30,18 +30,19 @@ Depends: R (>= 3.4.0)
 License: EUPL
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Imports:
     shiny,
     dplyr,
-    pander,
-    DT,
     surveillance,
     ISOweek,
-    ggplot2,
     graphics,
     utils,
-    knitr (>= 1.20),
     rmarkdown
+Suggests:
+    pander,
+    DT,
+    ggplot2,
+    knitr (>= 1.20)
 VignetteBuilder: knitr
 URL: http://atlas.ecdc.europa.eu/public/index.aspx

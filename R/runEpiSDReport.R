@@ -51,7 +51,7 @@
 #'
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' #-- Running the report as a standalone function
 #' runEpiSDReport()    #Definition of each input parameter
 #'                      #is done one by one through the R console
@@ -73,7 +73,7 @@
 #' #-- Second running the report based on the EpiSignalDetection::SignalData dataset
 #' #-- and store it in a temporary folder
 #' runEpiSDReport(input = input)
-#' \donttest{
+#' \dontrun{
 #' #-- Running the report based on the EpiSignalDetection::SignalData dataset
 #' #-- and store the HTML output 'test.html' in the folder 'C:/R/'
 #' runEpiSDReport(input = input, outputfile = "C:/R/test.html")
@@ -90,7 +90,7 @@
 #' algo = "FarringtonFlexible",
 #' testingperiod = 3
 #' )
-#' \donttest{
+#' \dontrun{
 #' runEpiSDReport(input = input, stratified = TRUE)
 #' }
 #'

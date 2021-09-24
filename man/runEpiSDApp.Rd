@@ -33,7 +33,7 @@ Datasets to use in the tool:
 }
 }
 \examples{
-\donttest{
+\dontrun{
 # --- Run the 'shiny' app
 # --- (NB: please open the app in an external browser
 # --- in order to facilitate its use)
