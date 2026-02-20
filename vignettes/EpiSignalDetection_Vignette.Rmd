@@ -179,7 +179,7 @@ knitr::kable(head(my_dataset),
 ```{r, echo=FALSE, results='asis'}
 my_dataset <- EpiSignalDetection::SignalData
 my_dataset <- dplyr::filter(my_dataset, my_dataset$HealthTopic == "Salmonellosis")
-my_dataset <- dplyr::group_by_(my_dataset, c("Population") )
+my_dataset <- dplyr::group_by(my_dataset, dplyr::across(dplyr::all_of("Population")))
 my_dataset <- dplyr::summarise(my_dataset, "NumValue" = sum(NumValue, na.rm = TRUE))
 my_dataset <- dplyr::ungroup(my_dataset)
 my_dataset <- dplyr::arrange(my_dataset, desc(my_dataset$NumValue))

@@ -355,7 +355,7 @@ aggAtlasExport <- function(x, input){
 
   #-- Aggregation by time and place
   RegionName <- NumValue <- NULL
-  x <-  dplyr::group_by_(x, c("StudyPeriod") )
+  x <-  dplyr::group_by(x, dplyr::across(dplyr::all_of("StudyPeriod")))
   x <-  dplyr::summarise(x,
                          "CasesByCountry" = paste(RegionName, " (", NumValue, ")", sep = "", collapse = ", "),
                          "NumValue" = sum(NumValue, na.rm = TRUE)  )
