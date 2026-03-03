@@ -2,3 +2,6 @@
 ^\.Rproj\.user$
 test
 LICENSE.md
+^CRAN-SUBMISSION$
+^\.github$
+^cran-comments\.md$
