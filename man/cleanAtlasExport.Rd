@@ -15,7 +15,7 @@ dataframe
 \description{
 Clean the Atlas data export dataframe before signal detection analysis \cr
 (see \code{\link{importAtlasExport}} and online ECDC Atlas:
-\href{http://atlas.ecdc.europa.eu/public/index.aspx}{http://atlas.ecdc.europa.eu/public/index.aspx}) \cr
+\href{https://atlas.ecdc.europa.eu/public/index.aspx}{https://atlas.ecdc.europa.eu/public/index.aspx}) \cr
 }
 \details{
 The function will: \cr

@@ -44,7 +44,7 @@ Datasets to use in the report:
   \item External dataset:
   \itemize{
     \item  --> An export (csv format) from the ECDC Surveillance Atlas of Infectious Diseases:
-     \href{http://atlas.ecdc.europa.eu/public/index.aspx}{http://atlas.ecdc.europa.eu/public/index.aspx}.
+     \href{https://atlas.ecdc.europa.eu/public/index.aspx}{https://atlas.ecdc.europa.eu/public/index.aspx}.
 
      On the ECDC "Surveillance Atlas of Infectious Diseases" web site:
 

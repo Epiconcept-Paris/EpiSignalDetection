@@ -24,7 +24,7 @@ A data frame with 80,834 rows and 11 variables:
 }
 }
 \source{
-\url{http://atlas.ecdc.europa.eu/public/index.aspx}
+\url{https://atlas.ecdc.europa.eu/public/index.aspx}
 }
 \usage{
 SignalData

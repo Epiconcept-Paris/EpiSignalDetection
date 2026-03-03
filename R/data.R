@@ -24,7 +24,7 @@
 #' @keywords datasets
 #' @name SignalData
 #' @usage SignalData
-#' @source \url{http://atlas.ecdc.europa.eu/public/index.aspx}
+#' @source \url{https://atlas.ecdc.europa.eu/public/index.aspx}
 "SignalData"
 
 

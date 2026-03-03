@@ -139,7 +139,7 @@ EU-EEA complete series, Reported cases, etc.) and push the button `Run the analy
 Three types of datasets can be used in the tool:
 
 * The default dataset included in the `EpiSignalDetection` package: `EpiSignalDetection::SignalData`;
-* A basic ECDC Atlas export (csv format) exported from http://atlas.ecdc.europa.eu/public/index.aspx;
+* A basic ECDC Atlas export (csv format) exported from https://atlas.ecdc.europa.eu/public/index.aspx;
 * Any dataset specified as described below.
 
 
